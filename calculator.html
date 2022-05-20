@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<style>
+    body{
+        width: 90vw;
+        height: 90vh;
+        text-align: center;
+        margin: auto;
+    }
+    .container{
+        padding: 14px;
+        width: 25%;
+        height: 60%;
+        text-align: center;
+        margin: auto;
+        margin-top: 99px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 3%;
+    }
+     .screen{
+        width: 95%;
+        height: 15%;
+        text-align: center;
+        margin: auto;
+        
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 8%;
+    }
+    .btn{
+        width: 95%;
+        height: 75%;
+        text-align: center;
+        margin: auto;
+        margin-top: 22px;
+    }
+    .mini{
+        width: 98%;
+        height: 22%;
+        text-align: center;
+        margin: auto;
+        margin-top: 4px;
+        display: flex;
+    }
+    .micro{
+        
+        width: 21%;
+        height: 95%;
+        text-align: center;
+        margin: auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 8%;
+        
+    }
+    .black{
+        background-color: black;
+        color: white;
+        font-size: 18px;
+        
+    }
+    .red{
+        background-color: red;
+        color: white;
+    }
+    h1{
+        color: rgb(2, 56, 64);
+        margin-bottom: -32px;
+    }
+    .micro>p{
+       
+    }
+</style>
+
+<body>
+    <div class="head">
+        <h1>Masai Calculator</h1>
+    </div>
+    <div class="container">
+
+        <div class="screen"></div>
+
+        <div class="btn">
+            <div class="mini">
+                <div class="micro ">1</div>
+                <div class="micro ">2</div>
+                <div class="micro ">3</div>
+                <div class="micro black">+</div>
+            </div>
+            <div class="mini">
+                <div class="micro ">4</div>
+                <div class="micro ">5</div>
+                <div class="micro ">6</div>
+                <div class="micro black">-</div>
+            </div>
+            <div class="mini">
+                <div class="micro ">7</div>
+                <div class="micro ">8</div>
+                <div class="micro ">9</div>
+                <div class="micro black">x</div>
+            </div>
+            <div class="mini">
+                <div class="micro red">C</div>
+                <div class="micro ">0</div>
+                <div class="micro black">=</div>
+                <div class="micro black">/</div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
